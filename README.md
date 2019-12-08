@@ -1,10 +1,10 @@
 # Final_Integrated_Project:Traverl company;
 [website logo](images/logo.svg)
 
-##  heavy_check_mark:*```DREAM DESTINATION```*:heavy_check_mark:
+## *```DREAM DESTINATION```*:heavy_check_mark:
 
 ## What is This emoji-cheat-sheet_README.md at master . ikatyang_emoji-cheat-sheet
-###FINAL PROJECT runs between all the subjects. Each subject has its own requirements. This project is worth 30% of my final grades.The main aim is to make one website for all the the subjects.
+### FINAL PROJECT runs between all the subjects. Each subject has its own requirements. This project is worth 30% of my final grades.The main aim is to make one website for all the the subjects.
 
 ## *****STEPS I FOLLOWED*****
 
@@ -19,15 +19,15 @@
 ## Considerations
 ### Flex boxes are very important to use in coding and also students must have 7 photos clicked by theirselves.
 
-##Prerequisities
+## Prerequisities
 ### Make a website included all the ```Requirements``` of every professor. 
 
-##Tips
+## Tips
 ### Make it simple as you can because simple things makes more sence and easy to understand as compare to complex design.
 
 ## To see my website [Click here](file:///Users/sabnitkaur01/Documents/Final_Integrated_Project/index.html)
 
-##Autor
+## Autor
 Sabnit kaur 
 
 ## License
