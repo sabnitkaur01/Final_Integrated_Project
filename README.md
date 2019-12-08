@@ -25,7 +25,7 @@
 ## Tips
 ### Make it simple as you can because simple things makes more sence and easy to understand as compare to complex design.
 
-## [WEBSITE](file:///Users/sabnitkaur01/Documents/Final_Integrated_Project/contact.html)
+## [WEBSITE](https://drive.google.com/open?id=1XqEdLZZ_Mvx0oIOZOG6tuJoIhpKnkMSs)
 
 ## Autor
 ### Sabnit kaur 
