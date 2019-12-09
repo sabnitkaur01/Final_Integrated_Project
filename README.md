@@ -1,4 +1,4 @@
-# Final_Integrated_Project:Traverl company;
+# Final_Integrated_Project:Travel company;
 [website logo](images/logo.svg)
 
 ## *```DREAM DESTINATION```*:heavy_check_mark:
