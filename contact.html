@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>CONTACT</title>
   <link rel="stylesheet" href="css/main.css">
@@ -12,7 +12,7 @@
       <img src="images/pattern.jpg" alt="pattern">
     </div> -->
       <div class="logoHeader">
-        <img src="images/logo.svg" alt="Dream Destination Logo" width="250" height="150" id="logo">
+        <img src="images/logo.svg" alt="Dream Destination Logo" width="250" height="125" id="logo">
       </div>
       <nav class="mainNav">
         <h2 class="hidden">Main Navigation</h2>
@@ -20,27 +20,27 @@
                <li><a href="index.html">HOME</a></li>
                <li><a href="AboutUs.html">ABOUT US</a></li>
                <li><a href="services.html">SERVICES</a></li>
-               <li><a href="selected">CONTACT</a></li>
-               <input type="text" placeholder="Search">
+               <li class="selected"><a href="contact.html">CONTACT</a></li>
             </ul>
+            <input type="text" placeholder="Search">
       </nav>
     </header>
       
       <!-- done with the header -->
   
         <main>
-        <section id="mainContact"> <!--start mainGallery-->
+        <section id="mainContact"> 
                     <h2>I would love to Get Feedback</h2>
-          <section id="contactArea"><!--start contactArea-->
+          <section id="contactArea">
                 <h2 class="hidden">Contact form</h2>
                 <p id="contactText">To Give Me a Feedback Fill This Form For Me.....
             </p> 
             <form id="contactForm" action="form.php" method="post">
-                    <label for="name">Name*</label>
-                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    <label for="name"> First Name*</label>
+                    <input type="text" required id="name" name="Name" size="30" placeholder="Enter your First name">
 
                     <label for="name"> Last Name*</label>
-                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    <input type="text" required id="LastName" name="Name" size="30" placeholder="Enter Last your name">
                     
                     <label for="email">Email*</label>
                     <input type="email" required id="email" size="30" placeholder="Enter your Email">
@@ -55,7 +55,7 @@
                     <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>                                       
                     <input id="submit" type="submit" value="Submit">
             </form>
-          </section><!--end contactArea-->  
+          </section><!--end contact-->  
             
             <section id="mapArea"><!--start mapArea-->
               <h2>Lets meet</h2><br><br><br>
@@ -69,7 +69,7 @@
 
                 <h3>Branch Address*</h3>
               <ul>
-                  <li>173 Oxford Street East  </li>
+                  <li>185 Oxford Street East  </li>
                 <li>Near Richmond and oxford </li>
                <li>London,Ontario</li>
                <li>Fax: 1-800-MO-SNORKEL</li>
@@ -78,7 +78,7 @@
 
                 <h3>Phone Number*</h3>
               <ul>
-                  <li>416-848-4420  </li>
+                  <li>416-834-4420  </li>
                 <li>345-654-6675 </li>
                 </ul>
 
@@ -89,20 +89,23 @@
                <li>Sabnitkaur01@gmail.com</li>
                <li>www.dreamdestination.com</li>
                 </ul>    
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4410254836453!2d-81.2739581850779!3d42.990047179149634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1e71a70bd95%3A0xb6db7d9cd2f6e52b!2s173%20Oxford%20St%20W%2C%20London%2C%20ON!5e0!3m2!1sen!2sca!4v1575767590337!5m2!1sen!2sca" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4410254836453!2d-81.2739581850779!3d42.990047179149634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1e71a70bd95%3A0xb6db7d9cd2f6e52b!2s173%20Oxford%20St%20W%2C%20London%2C%20ON!5e0!3m2!1sen!2sca!4v1575767590337!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
             </section><!--end mapArea-->      
-        </section><!--end mainContact-->
+        </section>
     </main>
         <footer class="mainFooter">  <!-- footer start -->
         <nav class="footerNav">
           <h2 class="hidden">Footer navigation</h2>
             <ul>
-                <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT US</a></li>
-                  <li><a href="#">SERVICES</a></li>
-                  <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                  <li><a href="AboutUs.html">ABOUT US</a></li>
+                  <li><a href="Services.html">SERVICES</a></li>
+                  <li><a href="selected">CONTACT</a></li>
               </ul>
-        </nav>
+
+        </nav>  
+
+      
   
 
       <div class="socialMedia">
@@ -120,14 +123,12 @@
             </li>
             <li id="youtube">
               <a href="http://www.youtube.com">
-                <img src="images/youtube.svg" alt="youtube"
+                <img src="images/youtube.svg" alt="youtube">
 
               </a>
            </li>
         </ul>
       </div>     
-    </footer>
-
-    </div><!--end container-->
+    </footer><!--end footer-->
 </body>
 </html>

@@ -1,7 +1,7 @@
 /*basic reset*/
 /*browsers have built in values for elements so we'll reset a few things to zero*/
 
-.container {
+.box {
   background-color: #8ea86e;
   color: #fff;
   text-align: center;
@@ -38,7 +38,7 @@ padding: 0;
 
 /*-- Start Container --*/
 
-.Container
+.box
 {
   width: 980px;
   margin: 0 auto;
@@ -98,25 +98,31 @@ padding: 0;
   color: white;
 }
 
-.selected
+ul li.selected a
 {
-  padding: 5px 0px 5px 0px;
+  /*padding: 5px 0px 5px 0px;
   background-color: #99181E;
   border-radius: 7px;
-  color: white;	
+  color: white;*/	
+
+  padding: 5px;
+  background-color: #99181E;
+  border-radius: 7px;
+  color: white;
 }
 
 .mainNav input[type=text] {
   float: right;
-  padding: 6px;
+  padding: 11px;
   border: none;
   margin-top: 15px;
-  font-size: 17px;
+  font-size: 18px;
   border: 2px solid;
-  margin-right: 120px;
+  margin-right: 40px;
   border-radius: 7px;
   width: 300px;
   font-weight: bold;
+  max-width: 920px;
 }
 
 .homePic {
@@ -127,7 +133,7 @@ padding: 0;
   	justify-content: flex-start;
   	margin: -105px;
   	margin-left: 90px;
-  	margin-top: 50px;
+  	margin-top: 20px;
 }
 
 .homepic1 {
@@ -143,19 +149,23 @@ padding: 0;
 }
 
 #hotelHomeText {
-	font-size: 13px;
+	font-size: 19.9px;
 	color: white;
 	margin-left: 90px;
 	flex-direction: start;
 	width: 450px;
 	height: 90px;
 	margin-top: 5px;
-	text-align: center;
+	text-align:left s;
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	max-width: 600px;
 	opacity: 0.840;
+}
+
+#hotelHomeText p {
+  margin-left: 25px;
 }
 
 .parkHome {
@@ -167,14 +177,14 @@ padding: 0;
 }
 
 #parkHomeText {
-	font-size: 13px;
+	font-size: 19.9px;
 	color: white;
 	margin-left: 670px;
 	flex-direction: start;
 	width: 450px;
 	height: 90px;
 	margin-top: 5px;
-	text-align: center;
+	text-align: left;
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -182,83 +192,110 @@ padding: 0;
 	opacity: 0.840;
 }
 
+#parkHomeText p {
+  margin-left: 25px;
+}
+
 /*index close*/
 
 
 /*start services*/
 
-
-#aero 
+.imageRow
 {
-	margin-top: 40px;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
-  	margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-/*Get rid of this, here just to give different height to promo*/
-#aero p 
+.secondImage,
 {
-	line-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-#aeroImage 
+.secondImage
 {
-	width: 600px;
+  margin-left: 155px;
+  margin-top: 16px;
 }
 
-#hotel
+.aeroContainer
 {
-	margin-left: 760px;
-	width: 0px;
-	margin-top: -257px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-left: 68px;
+  margin-top: 18px;
 }
 
-#serviceInfo 
+.aeroPara p
 {
-	margin-top: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: space-between;
-	padding-bottom: 40px;
+  font-size: 20px;
+  margin-top: -35px;
+  margin-left: 10px;
 }
 
-/*Get rid of this, here just to give different height to productInfo*/
-
-#serviceInfo p 
+.aeroPara p a
 {
-	line-height: 300px;
-	width: 200px;
+  color: white;
 }
 
-.taxi 
-{
-	margin-left: 70px;
-	width: 50px;
+#services {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 69px;
+  margin-top: 50px;
+}
+
+.taxi img {
+  margin-right: 66px;
+
 }
 
 .taxi p {
-	font-family: Arial;
-  margin-left: 223px;
-  margin-top: 445px;
+  margin-top: -98px;
+  font-size: 17.8px;
+  color: white;
+}
+
+.visa img{
+  margin-left: 75px;
+}
+
+.visa p {
+  margin-top: -115px;
+  font-size: 17.8px;
+  color: white;
+  margin-left: 80px;
 }
 
 .hotel {
-	padding-left: 7px;
-	width: 50px;
+  margin-left: 20px;
 }
 
-.visa {
-	padding-left: 80px;
-	width: 100px;
+.hotel p {
+  margin-top: -98px;
+  font-size: 17.8px;
+  color: white;
+  margin-left: 5px;
 }
 
-.airTicket {
-	margin-left: 30px;
-	width: 330px;
+.airTicket img{
+  margin-left: 73px;
 }
+
+.airTicket p {
+  margin-top: -98px;
+  font-size: 17px;
+  color: white;
+  margin-left: 73px;
+}
+
+
 
 
 /*end services*/
